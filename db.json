@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "TechMaster",
+      "email": "techmaster@example.com"
+    },
+    {
+      "id": 2,
+      "name": "GigaStore",
+      "email": "gigastore@example.com"
+    },
+    {
+      "id": 3,
+      "name": "ElectroWorld",
+      "email": "electroworld@example.com"
+    },
+    {
+      "id": 4,
+      "name": "SmartDevices",
+      "email": "smartdevices@example.com"
+    },
+    {
+      "id": 5,
+      "name": "HiTechUA",
+      "email": "hitechua@example.com"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Смартфон Samsung Galaxy S24",
+      "price": 29999,
+      "category": "smartphones",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук Lenovo IdeaPad 5",
+      "price": 23999,
+      "category": "laptops",
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Планшет iPad 10.9 2022",
+      "price": 18999,
+      "category": "tablets",
+      "user_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Навушники Sony WH-1000XM5",
+      "price": 14999,
+      "category": "audio",
+      "user_id": 4
+    },
+    {
+      "id": 5,
+      "name": "Смартгодинник Apple Watch Series 9",
+      "price": 19999,
+      "category": "wearables",
+      "user_id": 5
+    },
+    {
+      "id": 6,
+      "name": "Монітор LG UltraWide 34''",
+      "price": 15999,
+      "category": "monitors",
+      "user_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Павербанк Xiaomi 20000mAh",
+      "price": 999,
+      "category": "powerbanks",
+      "user_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Клавіатура Logitech G Pro",
+      "price": 3499,
+      "category": "accessories",
+      "user_id": 3
+    },
+    {
+      "id": 9,
+      "name": "Миша Razer DeathAdder V3",
+      "price": 2999,
+      "category": "accessories",
+      "user_id": 4
+    },
+    {
+      "id": 10,
+      "name": "Колонка JBL Charge 5",
+      "price": 4999,
+      "category": "audio",
+      "user_id": 5
+    },
+    {
+      "id": 11,
+      "name": "Телевізор Samsung QLED 55''",
+      "price": 36999,
+      "category": "tv",
+      "user_id": 1
+    },
+    {
+      "id": 12,
+      "name": "Смартфон iPhone 15",
+      "price": 39999,
+      "category": "smartphones",
+      "user_id": 2
+    },
+    {
+      "id": 13,
+      "name": "Ноутбук MacBook Air M2",
+      "price": 44999,
+      "category": "laptops",
+      "user_id": 3
+    },
+    {
+      "id": 14,
+      "name": "USB-хаб Baseus 8-in-1",
+      "price": 1199,
+      "category": "accessories",
+      "user_id": 4
+    },
+    {
+      "id": 15,
+      "name": "SSD Kingston NV2 1TB",
+      "price": 1899,
+      "category": "storage",
+      "user_id": 5
+    },
+    {
+      "id": 16,
+      "name": "Ігрова приставка PlayStation 5",
+      "price": 21999,
+      "category": "gaming",
+      "user_id": 1
+    },
+    {
+      "id": 17,
+      "name": "Пилосос робот Xiaomi Mi Robot",
+      "price": 9999,
+      "category": "home",
+      "user_id": 2
+    },
+    {
+      "id": 18,
+      "name": "Мережевий роутер TP-Link Archer AX53",
+      "price": 2799,
+      "category": "network",
+      "user_id": 3
+    },
+    {
+      "id": 19,
+      "name": "Електронна книга Kindle Paperwhite",
+      "price": 6999,
+      "category": "ebooks",
+      "user_id": 4
+    },
+    {
+      "id": 20,
+      "name": "Вебкамера Logitech C920",
+      "price": 2499,
+      "category": "accessories",
+      "user_id": 5
+    }
+  ]
+}
