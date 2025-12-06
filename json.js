@@ -21,8 +21,16 @@ function drawProducts(){
         main.innerHTML += `
         <div class="product">
         <h3>${p.name}</h3>
-        <a href="/seller/${p.user_id}">Seller page</a>
+        <a href="/seller.html?user_id=${p.user_id}">Seller page</a>
         </div>
         `
     })
 }
+
+let cartButton = document.getElementById("cart")
+
+let cartIsOpen = false
+cartButton.addEventListener("click", function(){
+    cartIsOpen = !cartIsOpen
+
+})

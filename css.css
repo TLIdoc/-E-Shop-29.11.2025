@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: pink;
 }
 main {
     display: grid;
@@ -18,4 +19,36 @@ main {
     background-color: rgba(209, 209, 209, 0.486);
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cartWrapper {
+    position: relative;
+}
+
+.cart {
+    position: relative;
+    top: 1rem;
+    right: 2.3rem;
+    border-radius: 0.5rem;
+}
+.cart:before {
+    content: "";
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+    z-index:5;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 0.2rem;
+    border-bottom-width: 1rem;
+    border-bottom-color: black;
+    border:1rem solid transparent;
+    
 }
