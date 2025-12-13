@@ -3,17 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: pink;
+    background-color: rgb(228, 174, 183);
+    color: rgb(255, 248, 234);
+    text-shadow: 5px 5px 10px rgb(54, 54, 54);
 }
 main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     max-width: 1000px;
     margin: 0 auto;
-    gap: 10px;
+    gap: 20px;
 
 }
 
+.h11 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+        text-shadow: 10px 5px 10px rgb(255, 227, 150);
+}
 .product {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
     background-color: rgba(209, 209, 209, 0.486);
@@ -33,14 +40,25 @@ header {
 }
 
 .cart {
-    position: relative;
-    top: 1rem;
-    right: 2.3rem;
+    position: absolute;
+    top: 4.4rem;
+    right: -40.7rem;
     border-radius: 0.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+}
+.cart li {
+    list-style: none;
+    background-color: pink;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    gap: 15px;
 }
 .cart:before {
     content: "";
-    background-color: white;
+    /* background-color: white; */
     width: 1rem;
     height: 1rem;
     z-index:5;
@@ -52,3 +70,6 @@ header {
     border:1rem solid transparent;
     
 }
+/* :hover {
+    background-color: rgba(202, 122, 149, 0.555);
+} */

@@ -31,6 +31,11 @@ function getProducts(){
 }
 getProducts()
 
+
+function addProductToCart(product_id){
+    console.log(product_id)
+}
+
 function drawProducts(products){
     main.innerHTML = ""
     products.forEach(p=>{
@@ -42,3 +47,11 @@ function drawProducts(products){
         `
     })
 }
+let cartButton = document.getElementById("cart")
+let cart = document.querySelector(".cart")
+
+let cartIsOpen = false
+cartButton.addEventListener("click", function(){
+    cartIsOpen = !cartIsOpen
+    cart.style.display = cartIsOpen ? "flex" : "none"
+})
